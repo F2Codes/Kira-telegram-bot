@@ -9,7 +9,7 @@ groq_api_key = os.getenv("GROQ_API")
 bot = TeleBot(BotToken, parse_mode="Markdown")
 
 client = OpenAI(
-    api_key= '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',
+    api_key= groq_api_key,
     base_url="https://api.groq.com/openai/v1",
 )
 
